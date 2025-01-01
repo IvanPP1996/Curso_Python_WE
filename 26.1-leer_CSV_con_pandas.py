@@ -61,5 +61,5 @@ fila_3 = df.loc[2,:]
 ##print(fila_3)
 
 #Accediendo a filas con edad mayor de 30
-mayor_30 = df.loc[df['edad']>30,:]
-print(mayor_30)
+mayor_de_30 = df.loc[df['edad']>30,:]
+print(mayor_de_30)

@@ -8,6 +8,6 @@ with open("archivo.csv") as document:
     #Obtenidendo objeto csv.reader usando la libreria de CSV
     ##print(csv.reader(document))
     #Recorriendo un csv.roader para obtenerlo en forma de lista
-    leer = csv.reader(document)
-    for row in leer:
+    leer_todo = csv.reader(document)
+    for row in leer_todo:
         print(row)
